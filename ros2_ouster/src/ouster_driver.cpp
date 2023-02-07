@@ -25,7 +25,6 @@
 #include "ros2_ouster/processors/processor_factories.hpp"
 #include "ros2_ouster/client/types.h"
 #include "ros2_ouster/sensor.hpp"
-#include "ros2_ouster/sensor_tins.hpp"
 
 namespace ros2_ouster
 {
