@@ -664,7 +664,7 @@ static bool recv_fixed(SOCKET fd, void * buf, int64_t len)
   } else if (n == -1) {
     std::cerr << "recvfrom: " << impl::socket_get_error() << std::endl;
   } else {
-    std::cerr << "Unexpected udp packet length: " << n << std::endl;
+    // std::cerr << "Unexpected udp packet length: " << n << std::endl;
   }
   return false;
 }
